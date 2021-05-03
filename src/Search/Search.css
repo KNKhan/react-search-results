@@ -1,0 +1,33 @@
+.searchbox {
+  display: block;
+  text-align: center;
+  padding: 30px;
+  background: url("./bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.searchbox input[type="text"] {
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  min-width: 50%;
+  font-size: 15px;
+  color: #5d5d5d;
+}
+h3.devname {
+  color: #fff;
+  margin: 0 0 10px 0;
+}
+h3.devname span {
+  font-weight: normal;
+  font-size: 13px;
+}
+.results {
+  display: table;
+  margin: 0 auto;
+  width: 80%;
+  white-space: pre-line;
+}
+.results ul li span {
+  background: yellow;
+}
